@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --bg-color:rgba(170, 170, 170, 1);
+    --font-orimary-color:rgba(58, 58, 58, 1);
+    --main-color:rgba(224, 44, 109, 1);
+}
