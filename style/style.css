@@ -6,7 +6,81 @@
     list-style: none;
 }
 :root{
-    --bg-color:rgba(170, 170, 170, 1);
-    --font-orimary-color:rgba(58, 58, 58, 1);
+    --bg-color:rgba(255, 255, 255, 1);
+    --font-primary-color:rgba(58, 58, 58, 1);
     --main-color:rgba(224, 44, 109, 1);
 }
+body{
+    font-family: "Poppins", sans-serif;
+    background: var(--bg-color);
+}
+#body-container{
+    margin: 0 auto;
+    max-width: 90%;
+    min-height: 60%;
+}
+section{
+    margin: 100px auto;
+}
+/* navbar design start */
+.display{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    
+}
+#menu-icon{
+    font-size: 24px;
+    color: rgba(27, 27, 27, 1);
+    display: none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--font-primary-color);
+}
+.navlist a{
+    font-size: 16px;
+    color: var(--font-primary-color);
+    font-weight: 500;
+    margin-left: 35px;
+    /* cursor: pointer; */
+}
+.nav-list-icon{
+    display: flex;
+    align-items: center;
+}
+.navlist-icon{
+    font-size: 20px;
+    color: var(--font-primary-color);
+}
+
+
+
+
+
+
+
+
+/* navbar design end */
+
+/* home section design start */
+
+/* home section design end */
+
+/* brand section design end */
+
+/* brand section design end */
+
+/* card section design start here */
+
+/* card section design end here */
